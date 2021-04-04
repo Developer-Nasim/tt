@@ -1,0 +1,140 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1700px) {
+.contants-area img.wlogo { 
+    max-width: 190px;
+    left: 2%; 
+}
+.shapes { 
+  right: 4%; 
+} 
+
+} 
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  .top-title h1 {
+    font-size: 82px;
+    line-height: 100px; 
+  }
+  .blk h3 {
+    padding: 0 1px; 
+    margin-bottom: 30px;
+}
+
+
+
+.contants-area img.wlogo { 
+  max-width: 145px;
+  left: 2%; 
+}  
+.shapes { 
+  top: 20%;
+  right: 4%; 
+  width: 160px; 
+}
+.shapes img {
+  height: 250px;
+} 
+.shapes img.second-shape {
+  position: absolute;
+  left: -65px;
+  bottom: -140px;
+}
+
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .top-title h1 {
+    font-size: 69px;
+    line-height: 75px; 
+}
+.blk { 
+  min-height: auto;
+}
+
+
+
+.contants-area img.wlogo { 
+  max-width: 120px;
+  left: 2%; 
+}  
+.shapes {
+  top: 20%;
+  right: 4%;
+  width: 160px;
+  transform: scale(.7);
+}
+.shapes img {
+  height: 250px;
+} 
+.shapes img.second-shape {
+  position: absolute;
+  left: -65px;
+  bottom: -140px;
+}
+
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .contants-area {
+      padding:50px 0;
+    }
+    .top-title h1 {
+        font-size: 52px;
+        line-height: 59px;
+        margin-bottom: 20px;
+    }
+    .blk h3 {
+      padding: 0; 
+      margin-bottom: 20px;
+  }
+  .blk { 
+    min-height: auto;
+  }
+  .invitations {
+    margin-top: 50px;
+} 
+.invitations h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.invitations b {
+  font-size: 20px;
+}
+
+.num-conts button.theme-btn {
+  padding-left: 30px;
+  padding-right: 70px; 
+  width: 100%;
+}
+.num-conts {
+  text-align: center;
+  margin-bottom: 70px;
+} 
+.shapes {
+  position: absolute;
+  top: 0%;
+  right: -10%;
+  width: max-content;
+  z-index: -1;
+  text-align: right;
+  transform: scale(.3);
+}
+.contants-area img.wlogo {
+  max-width: 50px;
+  left: 4%;
+  top: 88%;
+}
+
+
+
+} 
