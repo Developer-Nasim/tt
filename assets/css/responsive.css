@@ -55,18 +55,16 @@
 .blk { 
   min-height: auto;
 }
-
-
-
+ 
 .contants-area img.wlogo { 
-  max-width: 120px;
-  left: 2%; 
+  display: none;
 }  
 .shapes {
   top: 20%;
   right: 4%;
   width: 160px;
-  transform: scale(.7);
+  transform: scale(.8);
+  opacity: .5;
 }
 .shapes img {
   height: 250px;
@@ -130,11 +128,10 @@
   transform: scale(.5);
   opacity: .5;
 }
-.contants-area img.wlogo {
-  max-width: 50px;
-  left: 4%;
-  top: 88%;
-}
+
+.contants-area img.wlogo { 
+  display: none;
+}  
 .theme-btn { 
   padding: 12px 30px; 
 }
