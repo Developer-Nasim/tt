@@ -78,7 +78,9 @@
   margin-bottom: 20px;
   max-width: 180px;
 }
-
+.steps-section .container {
+  max-width: 750px;
+}
 
 }
 
@@ -100,17 +102,12 @@
 .blk { 
   min-height: auto;
 }
-.invitations {
-  margin-top: 50px;
-} 
 .invitations h1 {
   text-align: center;
-  font-size: 36px;
-  margin-bottom: 30px;
+  font-size: 26px;
+  margin-bottom: 10px;
 }
-.invitations b {
-  font-size: 20px;
-} 
+
 .num-conts button.theme-btn {
   padding-left: 30px;
   padding-right: 70px; 
@@ -159,6 +156,46 @@
 form {
   margin-top: 50px;
 }
+.blk h1 { 
+  font-size: 82px;
+  font-weight: 600; 
+  line-height: 70px;
+}
+.contants-area.secondpage h1 {
+  font-size: 33px;
+  line-height: 45px;
+}
+.contants-area.secondpage .shapes { 
+  top: 15%;
+  right: 0%;
+  width: 135px; 
+}
+.contants-area.secondpage .shapes img.second-shape {
+  position: absolute;
+  left: -50px;
+  bottom: -120px;
+}
+.blk a.theme-btn{
+  width: 100%;
+}
+button.theme-btn { 
+  width: 100%;
+}
+.steps-section {
+  padding: 70px 0; 
+}
+.invitations-section {
+  padding: 70px 0; 
+}
+.invitations-section h2 {
+  font-size: 40px;
+  margin-bottom: 34px;
+}
+
+
+
+
+
 
 
 
