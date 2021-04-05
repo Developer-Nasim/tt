@@ -123,18 +123,21 @@
 .shapes {
   position: absolute;
   top: 0%;
-  right: -10%;
+  right: -20%;
   width: max-content;
   z-index: -1;
   text-align: right;
-  transform: scale(.3);
+  transform: scale(.5);
+  opacity: .5;
 }
 .contants-area img.wlogo {
   max-width: 50px;
   left: 4%;
   top: 88%;
 }
-
+.theme-btn { 
+  padding: 12px 30px; 
+}
 
 
 } 

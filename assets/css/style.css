@@ -92,6 +92,7 @@ li {
   width: 100%;
   padding: 100px 0;
   position: relative;
+  overflow: hidden;
   z-index: 2;
 }
 
@@ -134,8 +135,11 @@ label input {
   background: #41CCB4;
   color: #fff;
   font-weight: 500;
+  transition: .3s;
 }
-
+.theme-btn:hover{
+  background: #c4c4c4;
+}
 button.theme-btn {
   margin-top: 20px;
 }
@@ -170,8 +174,12 @@ form a {
   display: block;
   margin-top: 13px;
   text-decoration: none;
+  transition: .3s;
 }
-
+form a:hover{
+  color: #41CCB4;
+  text-decoration: underline;
+}
 
 
 
