@@ -75,6 +75,10 @@
   bottom: -140px;
 }
 
+.top-title img { 
+  margin-bottom: 20px;
+  max-width: 180px;
+}
 
 
 }
@@ -82,23 +86,23 @@
  
 /* small screen :320px. */
 @media (max-width: 767px) {
-    .contants-area {
-      padding:50px 0;
-    }
-    .top-title h1 {
-        font-size: 52px;
-        line-height: 59px;
-        margin-bottom: 20px;
-    }
-    .blk h3 {
-      padding: 0; 
-      margin-bottom: 20px;
-  }
-  .blk { 
-    min-height: auto;
-  }
-  .invitations {
-    margin-top: 50px;
+.contants-area {
+  padding:50px 0;
+}
+.top-title h1 {
+  font-size: 38px;
+  line-height: 38px;
+  margin-bottom: 10px;
+}
+.blk h3 {
+    padding: 0; 
+    margin-bottom: 20px;
+}
+.blk { 
+  min-height: auto;
+}
+.invitations {
+  margin-top: 50px;
 } 
 .invitations h1 {
   text-align: center;
@@ -107,8 +111,7 @@
 }
 .invitations b {
   font-size: 20px;
-}
-
+} 
 .num-conts button.theme-btn {
   padding-left: 30px;
   padding-right: 70px; 
@@ -136,5 +139,9 @@
   padding: 12px 30px; 
 }
 
+.top-title img { 
+  margin-bottom: 20px;
+  max-width: 150px;
+}
 
 } 
