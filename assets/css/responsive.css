@@ -122,15 +122,14 @@
 } 
 .shapes {
   position: absolute;
-  top: 0%;
-  right: -12%;
-  width: max-content;
+  top: 15%;
+  right: 0%;
+  width: 115px;
   z-index: -1;
   text-align: right;
-  transform: scale(.5);
+  transform: scale(1);
   opacity: .5;
 }
-
 .contants-area img.wlogo { 
   display: none;
 }  
@@ -140,7 +139,27 @@
 
 .top-title img { 
   margin-bottom: 20px;
-  max-width: 150px;
+  max-width: 100px;
 }
+.top-title.text-center p{
+  display: none;
+}
+.contants-area {
+  margin-top: 0px; 
+}
+.shapes img {
+  height: auto;
+  width: 100%;
+}
+.shapes img.second-shape {
+  position: absolute;
+  left: -50px;
+  bottom: -55px;
+}
+form {
+  margin-top: 50px;
+}
+
+
 
 } 

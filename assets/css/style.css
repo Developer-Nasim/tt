@@ -5,10 +5,10 @@ body {
   font-weight: 400;
   color: #394147;
   font-size: 16px;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* min-height: 100vh; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 button {
   cursor: pointer; }
@@ -89,6 +89,7 @@ li {
 
  
 .contants-area {
+  margin-top: 50px;
   width: 100%;
   padding: 100px 0;
   position: relative;
